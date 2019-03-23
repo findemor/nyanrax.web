@@ -1,0 +1,141 @@
+@media screen and (min-width:769px) {
+
+body{
+background: url('./fondo.png') no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.text{
+position:absolute;
+left:45%;
+bottom:40%;
+
+font-family:Arial, Helvetica, sans-serif;
+color:#1C1C1C;
+}
+
+#name{
+font-size:250%;
+}
+
+.training{
+font-size:200%;
+}
+
+.contact{
+position:absolute;
+left:45%;
+bottom:35%;
+}
+
+.contact img{
+border:none;
+}
+
+#linkedin{
+}
+
+#monster{
+/*padding:0%;*/
+}
+}
+
+
+
+
+@media screen and (max-width:768px) and (orientation : portrait){
+body{
+height: 100%;
+width: 100%;
+
+/*background-image: url('./fondoL.png');*/
+background: url('./fondoV.png'),black;
+
+background-repeat: no-repeat;
+background-position: left top;
+background-size: 100%;
+}
+
+.text{
+position:absolute;
+left:4%;
+bottom:10%;
+
+font-family:Arial, Helvetica, sans-serif;
+color:#FAFAFA;
+/*color:white;*/
+}
+
+#name{
+font-size:200%;
+}
+
+.training{
+font-size:125%;
+}
+
+.contact{
+position:absolute;
+left:10%;
+bottom:3%;
+}
+
+.contact img{
+border:none;
+}
+
+#linkedin{
+}
+
+#monster{
+/*padding:0%;*/
+}
+}
+
+
+
+@media screen and (max-width:768px) and (orientation : landscape) {
+body{
+height: 100%;
+width: 100%;
+
+background-image: url('./fondo.png');
+background-repeat: no-repeat;
+background-position: left 12%;
+/*background-size: 480px;*/
+}
+
+.text{
+position:absolute;
+left:55%;
+bottom:30%;
+
+font-family:Arial, Helvetica, sans-serif;
+color:#1C1C1C;
+}
+
+#name{
+font-size:200%;
+}
+
+.training{
+font-size:115%;
+}
+
+.contact{
+position:absolute;
+left:55%;
+bottom:20%;
+}
+
+.contact img{
+border:none;
+}
+
+#linkedin{
+}
+
+}
